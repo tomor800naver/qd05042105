@@ -7,14 +7,14 @@ const originalClipVisual = "https://omo-oss-image.thefastimg.com/portal-saas/pg2
 const originalAdhesiveVisual = "https://omo-oss-image.thefastimg.com/portal-saas/pg2024012914125080147/cms/image/817f85d6-61cb-41f7-826e-27497893b0da.jpg";
 
 const products = [
+  { name: "打込タイプ製品 - Clip Type AL / ST", category: "打込タイプ", image: originalClipVisual, specs: ["車種別形状検討", "量産供給相談", "表面処理対応"] },
+  { name: "打込タイプ製品 - Clip Type AL / ST", category: "打込タイプ", image: originalClipVisual, specs: ["OEM向け相談", "安定した把持力", "検査資料確認可"] },
+  { name: "打込タイプ製品 - Clip Type AL / ST", category: "打込タイプ", image: originalClipVisual, specs: ["各種ホイール条件", "サンプル相談", "日本語対応"] },
   { name: "一体型製品", category: "貼付タイプ", image: productVisual, specs: ["一体型構造", "作業性を考慮", "量産仕様相談"] },
   { name: "分離型製品 - ストリップ式", category: "貼付タイプ", image: originalAdhesiveVisual, specs: ["ストリップ供給", "貼付作業に対応", "仕様別提案"] },
   { name: "分離型製品 - ロール式", category: "貼付タイプ", image: originalAdhesiveVisual, specs: ["ロール供給", "作業効率重視", "ライン使用相談"] },
   { name: "打込タイプ製品 - Clip Type AL / ST", category: "打込タイプ", image: originalClipVisual, specs: ["材質：鉄・亜鉛系仕様に対応", "適用ホイール：アルミ・スチール", "仕様目安：5g〜60g"] },
-  { name: "打込タイプ製品 - Clip Type AL / ST", category: "打込タイプ", image: originalClipVisual, specs: ["車種別形状検討", "量産供給相談", "表面処理対応"] },
-  { name: "打込タイプ製品 - Clip Type AL / ST", category: "打込タイプ", image: originalClipVisual, specs: ["OEM向け相談", "安定した把持力", "検査資料確認可"] },
-  { name: "打込タイプ製品 - Clip Type AL / ST", category: "打込タイプ", image: originalClipVisual, specs: ["各種ホイール条件", "サンプル相談", "日本語対応"] },
-  { name: "貼付型ゴム製品 - 開発中", category: "開発品", image: productVisual, specs: ["開発中", "特殊用途相談", "共同検討可能"] },
+  { name: "貼付型ゴム製品 - 開発中", category: "開発品", image: productVisual, specs: ["開発中", "特殊用途相談", "共同検討可能"] }
 ];
 
 export default function Products() {
@@ -29,7 +29,7 @@ export default function Products() {
           <aside className="category-panel" aria-label="製品カテゴリ">
             <span>製品タイプ</span>
             <a href="#adhesive">貼付タイプ製品</a>
-            <a href="#clip">打込タイプ製品</a>
+            <a href="#adhesive">貼付タイプ製品</a>
             <Link href="/contact">すぐに相談する</Link>
           </aside>
           <div className="product-main">

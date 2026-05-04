@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "framework": "vite",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist/public",
+  "installCommand": "pnpm install"
+}

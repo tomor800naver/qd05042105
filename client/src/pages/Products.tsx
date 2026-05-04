@@ -1,11 +1,7 @@
 import Layout from "@/components/Layout";
 import { Link } from "wouter";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
-/**
- * Design note: Industrial Corporate Modernism with East Asian manufacturing precision.
- * Product content should echo the original 产品中心 structure while presenting Japanese-readable
- * categories, metallic product cards, teal section rules, and concise B2B value propositions.
- */
+
 const productVisual = "/product-hero-clean.png";
 const originalClipVisual = "https://omo-oss-image.thefastimg.com/portal-saas/pg2024012914125080147/cms/image/b91e5c00-a3c3-4e80-822e-85a567bcf5ba.jpg";
 const originalAdhesiveVisual = "https://omo-oss-image.thefastimg.com/portal-saas/pg2024012914125080147/cms/image/817f85d6-61cb-41f7-826e-27497893b0da.jpg";

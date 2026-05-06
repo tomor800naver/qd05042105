@@ -5,7 +5,7 @@ import { Award, Factory, ShieldCheck, Wrench } from "lucide-react";
  * Home page should stay close to the original site: automotive hero,
  * year/area/experience metrics, company introduction, and four manufacturing advantages.
  */
-const heroImage = "/hero-full-products.png";
+const heroImage = "/hero-bg-ultra-clean.png";
 const generatedHero = "/about-new.png";
 const metrics = [
   { value: "2002", label: "中国本社設立" },
@@ -51,7 +51,7 @@ export default function Home() {
         </section>
         <section className="content-container about-section">
           <div className="about-visual">
-            <img src={generatedHero} alt="自動車物流とバランスウェ이트의 이미지" loading="lazy" />
+            <img src={generatedHero} alt="自動車物流とバランスウェイトのイメージ" loading="lazy" />
           </div>
           <div className="about-copy">
             <span className="section-kicker">ABOUT US</span>
